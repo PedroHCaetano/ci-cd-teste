@@ -17,4 +17,4 @@ jobs:
           python-version: "3.x"
 
       - name: Executar script
-        run: python main.py 
+run: python main.py
