@@ -7,6 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout do código
         uses: actions/checkout@v4
@@ -17,4 +18,4 @@ jobs:
           python-version: "3.x"
 
       - name: Executar script
-run: python main.py
+        run: python main.py
